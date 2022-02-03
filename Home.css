@@ -1,0 +1,274 @@
+.header {
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    height: 53px;
+}
+  
+td {
+    position: relative;
+    float: left;
+}
+  
+a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+a:hover {
+    background-color:blue;
+}
+  
+.active {
+    background-color: red;
+}
+.inloggen {
+    position: relative; 
+    float: right;
+    line-height: 25px;
+}
+.block1 {
+    position: relative;
+    margin-top: 120px;
+    margin-left: 37%;
+    margin-right: 37%;
+    height: 100px;
+    line-height: 100px;
+}
+.grid-container-login {
+    display: grid;
+    margin-left: 37%;
+    margin-right: 37%;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    grid-row-gap: 10px;
+    grid-column-gap: 14px;
+    margin-top: 50px;
+}
+.annoying-button-fixer {
+    background:darkblue;
+    border-color:darkblue;
+    color: white;
+}
+input {
+    color: black;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+}
+
+.grid-login-1 {
+    grid-column: 1;
+    grid-row: 1;
+    height: 50px;
+    line-height: 50px;
+}
+
+.grid-login-2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.grid-login-3 {
+    grid-column: 1;
+    grid-row: 2;
+    height: 50px;
+    line-height: 50px;
+}
+
+.grid-login-4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.grid-login-5 {
+    grid-column: 1;
+    grid-row: 3;
+    height: 50px;
+}
+
+.grid-login-6 {
+    grid-column: 2;
+    grid-row: 3;
+    height: 50px;
+}
+
+.grid-login-7 {
+    grid-column: 1;
+    grid-row: 3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.grid-login-8 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.grid-login-9 {
+    grid-column: 1;
+    grid-row: 4;
+    height: 50px;
+    line-height: 50px;
+}
+
+.grid-login-10 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.grid-login-11 {
+    grid-column: 1;
+    grid-row: 5;
+    height: 50px;
+    line-height: 50px;
+}
+
+.grid-login-12 {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.grid-login-13 {
+    grid-column: 1;
+    grid-row: 6;
+    height: 50px;
+    line-height: 50px;
+}
+
+.grid-login-14 {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.grid-login-15 {
+    grid-column: 1;
+    grid-row: 7;
+    height: 50px;
+}
+
+.greenBack {
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+
+.grid-container-over-ons {
+    display: grid;
+    margin-left: 13%;
+    margin-right: 35%;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 25% 35%;
+    text-align: center;
+    grid-row-gap: 125px;
+    grid-column-gap: 85px;
+    margin-top: 35px;
+}
+.grid-over-ons-1 {
+    grid-column: 1;
+    grid-row: 1;
+    height: 175px;
+    line-height: 25px;
+    background-color: #F0F0F0;
+}
+.grid-over-ons-2 {
+    grid-column: 2;
+    grid-row: 1;
+    height: 150px;
+}
+.grid-over-ons-3 {
+    grid-column: 1;
+    grid-row: 2;
+    height: 175px;
+    line-height: 18px;
+    background-color: #F0F0F0;
+}
+.grid-contacten-ons {
+    display: grid;
+    margin-left: 13%;
+    margin-right: 35%;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 25% 35%;
+    text-align: center;
+    grid-row-gap: 125px;
+    grid-column-gap: 85px;
+    margin-top: 35px;
+}
+.grid-werkplaats-ons {
+    display: grid;
+    margin-left: 5%;
+    margin-right: 35%;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 25% 35%;
+    text-align: center;
+    grid-row-gap: 125px;
+    grid-column-gap: 85px;
+    margin-top: 50px;
+}
+.grid-werkplaats-1 {
+    grid-column: 1;
+    grid-row: 1;
+    height: 300px;
+    line-height: 25px;
+    background-color: #F0F0F0;
+}
+.grid-werkplaats-3 {
+    grid-column: 3;
+    grid-row: 1;
+    line-height: 18px;
+    background-color: #F0F0F0;
+}
+.grid-webshop-ons-1 {
+    display: grid;
+    margin-left: 15%;
+    margin-right: 35%;
+    grid-template-columns: 20% 0% 7% 30% 20%;
+    grid-template-rows: 25% 35%;
+    text-align: center;
+    grid-row-gap: 125px;
+    grid-column-gap: 85px;
+    margin-top: 50px;
+}
+.grid-webshop-1 {
+    grid-column: 1;
+    grid-row: 1;
+    height: 75px;
+}
+.grid-webshop-2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 25px;
+    height: 75px;
+}
+.grid-webshop-3 {
+    grid-column: 3;
+    grid-row: 1;
+    height: 68px;
+    line-height: 50px;
+}
+.grid-webshop-4 {
+    grid-column: 4;
+    grid-row: 1;
+    height: 125px;
+    line-height: 18px;
+    background-color: #F0F0F0;
+}
+.grid-webshop-5 {
+    grid-column: 5;
+    grid-row: 1;
+    height: 100px;
+}
+
+.last-minute-fix{
+    margin-left: 80px;
+}
+
+.flaot-right{
+    float: right;
+    color: black;
+}
